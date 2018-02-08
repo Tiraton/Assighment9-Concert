@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		#container{
+			width: 100px;
+			margin: auto; 
+		}
+		#jambo{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron" id="jambo">
+		<center><h1>Welcome to concert of the Year 2017 </h1></center>
+		<div id="container">
+			<form action="concert.php" method="post">
+					<tr>
+						<td><input type="checkbox" name="a1" />A1</td>
+						<td><input type="checkbox" name="a2" />A2</td>
+						<td><input type="checkbox" name="a3" />A3</td>
+					</tr><br>
+					<tr>
+						<td><input type="checkbox" name="b1" />B1</td>
+						<td><input type="checkbox" name="b2" />B2</td>
+						<td><input type="checkbox" name="b3" />B3</td>
+					</tr><br>
+					<tr>
+						<td><input type="checkbox" name="c1" />C1</td>
+						<td><input type="checkbox" name="c2" />C2</td>
+						<td><input type="checkbox" name="c3" />C3</td>
+					</tr><br>
+
+					<button class="btn btn-primary btn-lg" type="submit">Buy now !</button>
+			</form>
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
